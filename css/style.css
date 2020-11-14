@@ -75,8 +75,8 @@ body{
 .title__text {
     font-size: 62px;
     font-weight: 700;
-    -webkit-animation: pulsate 1.2s linear infinite;
-    animation: pulsate 1.2s linear infinite;
+    -webkit-animation: pulsate 3s linear infinite;
+    animation: pulsate 3s linear infinite;
 }
 .shopping_cart{
     font-size: 20px;
@@ -128,10 +128,10 @@ body{
 }
 
 @-webkit-keyframes pulsate {
-    50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+    50% {color: #fff; text-shadow: 0 -1px rgb(84, 46, 255), 0 0 5px #ffd, 0 0 8px #fff;}
   }
 @keyframes pulsate {
-    50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+    50% {color: #fff; text-shadow: 0 -1px rgba(238, 7, 7, 0.3), 0 0 5px #ffd, 0 0 8px #fff;}
   }
 
 @media (max-width: 1200px){
